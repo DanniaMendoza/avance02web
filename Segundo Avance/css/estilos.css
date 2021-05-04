@@ -1,0 +1,184 @@
+/*parte1*/
+/*imagen*/
+.container1{
+    background-image: url(../img/sist.pag.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    opacity: 0.8;
+
+}
+/*contenido*/
+.rowConteiner{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.rowcontainer__title{
+        color: black;
+        font-size: 60px;
+        width:55%;
+        text-align: center;
+        font-weight: 900;
+        margin:50px  auto 50px auto;
+
+}
+/*parte2*/
+/*CONTENIDO CENTRAL*/
+
+.cuerpo-central{
+    background-image: url("../img/fondo02.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+}
+
+/*CONTENIDO CENTRAL - LADO IZQUIERDO*/
+.Barra-izquierda{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 160px;
+}
+
+.Barra-izquierda nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 20px 10px;    
+    padding: 20px 10px 10px 10px;
+    width: 80%;
+}
+
+.Barra-izquierda nav a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.Barra-izquierda nav a:hover{
+    transform: scale(1.2);
+    transform-origin:left;
+    transition: transform 0.5s;
+}
+
+/*CONTENIDO CENTRAL - LADO DERECHO*/
+.contenido-derecha{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 15px 160px 60px 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify;
+}
+
+.contenido-derecha h1{
+    padding: 15px 10px 15px 20px;
+    font-size: 25px;
+    font-weight:bold;
+    background: rgba(0, 0, 0);
+    color: white;
+    
+}
+
+.contenido-derecha p{
+    
+    padding: 10px 20px 20px 15px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/*CONTENIDO CENTRAL - TESTIMONIOS*/
+.testimonios{
+    
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+}
+
+.testi{
+    background: rgba(248, 212, 212, 0.75);
+    box-shadow: 10px 10px 20px rgba(20, 1, 1, 0.5);
+    margin: 30px 20px 20px 5px;
+    padding: 30px 20px 20px 30px;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.testi p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0px 20px 20px 35px;
+    text-align: justify;
+}
+
+.avatar{
+    width: 120px;
+    border-radius: 100px;
+}
+
+/*****************************************/
+/* stylos mision vision  */
+
+
+.mision__titulo{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+.mision__Info{
+ border-radius:  5px;
+ background: #D4D6D4;
+ padding: 20px; 
+ margin-top: 50px;
+
+}
+
+/****************************/
+/* Stylos footer */
+
+.footer{
+    background: black;
+
+}
+
+.footer__titulo{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center; 
+    color: white;
+}
+.footer__text{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center; 
+    color: white;
+}
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 5px 5px 5px 5px;
+}
+.footer__icons--icon{
+    color: white;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__icons--icon:hover{
+    color: red;
+}
+/*********************************/
+
+

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Tahoma',sans-serif;
+	font-size: 17px;
+    background-image: url("../img/fondop2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*CABECERA 1*/
+.cabecera-informacion{
+    background-image: url("../img/12.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 310px;
+}
+
+
+/*CONTENIDO CENTRAL*/
+
+.portafolio {
+    width: 95%;
+    height: 100%;
+    margin: 50px auto;
+    margin-top: 10px;   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.pruebadiv{
+    background-color: rgba(236, 225, 225, 0.4);
+    width: 305px;
+    height: 100%;
+    margin: 10px 10px 40px 40px;
+    padding: 20px 20px 60px 50px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.8);
+
+}
+
+.pruebadiv li{
+    margin-top: 17px;
+    text-decoration: none;
+    font-size: 11px;
+}
+.pruebadiv:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+.titulomalla{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    
+}
+/****************************/
+/* Stylos footer */
+
+.footer{
+    background: black;
+
+}
+
+.footer__titulo{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center; 
+    color: white;
+}
+.footer__text{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center; 
+    color: white;
+}
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 5px 5px 5px 5px;
+}
+.footer__icons--icon{
+    color: white;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__icons--icon:hover{
+    color: red;
+}

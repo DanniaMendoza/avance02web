@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Tahoma',sans-serif;
+	font-size: 17px;
+    background-image: url("../img/fondo03.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*CABECERA PRINCIPAL*/
+.cabecera1{
+    background-color: rgb(160, 18, 18);
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    height: 70px;
+    line-height: 70px;
+}
+
+.navegacion a{
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+    padding: 5px 15px 5px 15px;
+    display: inline-block;
+    line-height: 2;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+header nav a:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    background: rgba(252, 252, 252, 0.2)
+}
+
+.logo{
+    margin-left: 5px;
+    height: 70px;
+    width: 300px;
+}
+
+/*CABECERA 1*/
+.cabecera-informacion{
+    background-image: url("../img/planaUTPsedeAQP.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+/*CONTENIDO CENTRAL - LADO DERECHO*/
+.contenido-derecha{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 15px 160px 60px 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:justify;
+}
+
+.contenido-derecha h1{
+    padding: 15px 10px 15px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background: rgba(0, 0, 0);
+    color: white;
+    
+}
+
+.contenido-derecha p{
+    
+    padding: 10px 20px 20px 15px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
+/*CONTENIDO CENTRAL - TESTIMONIOS*/
+.docentes{
+    
+    display: flex;
+    flex-direction: column;
+	justify-content: space-between;
+}
+
+.testi{
+    background: rgba(248, 212, 212, 0.75);
+    box-shadow: 10px 10px 20px rgba(20, 1, 1, 0.5);
+    margin: 30px 20px 20px 5px;
+    padding: 30px 20px 20px 30px;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-between;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.testi p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0px 20px 20px 35px;
+    text-align: justify;
+}
+
+.avatar{
+    width: 120px;
+    border-radius: 100px;
+}
+/****************************/
+/* Stylos footer */
+
+.footer{
+    background: black;
+
+}
+
+.footer__titulo{
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center; 
+    color: white;
+}
+.footer__text{
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center; 
+    color: white;
+}
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 5px 5px 5px 5px;
+}
+.footer__icons--icon{
+    color: white;
+    margin: 5px 5px 5px 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer__icons--icon:hover{
+    color: red;
+}
+/*********************************/
